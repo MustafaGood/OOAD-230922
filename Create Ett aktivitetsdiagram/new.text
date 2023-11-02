@@ -1,0 +1,14 @@
+Ett use case på textformat
+NAMN: Skapa ny anteckning
+Aktörer: Användare, System
+Mål: Användaren vill skapa en ny anteckning.
+Förvillkor: Användaren är inloggad.
+Trigger: Användaren klickar på "Skapa ny anteckning".
+Grundflöde:
+Systemet presenterar ett formulär.
+Användaren fyller i titel och innehåll.
+Användaren sparar anteckningen.
+Systemet lagrar anteckningen.
+
+Alternativ:
+● Vid ogiltig inmatning meddelar systemet användaren.
