@@ -1,0 +1,23 @@
+@startuml klassdiagram
+title Diagram Title - mustafa
+class User {
+    +Email: String
+    +Password: String
+    +Notes: List<Note>
+    +Register(): void
+    +Login(): void
+    +Logout(): void
+}
+
+class Note {
+    +Title: String
+    +Content: String
+    +CreationDate: DateTime
+    +LastModifiedDate: DateTime
+    +Create(): void
+    +Edit(): void
+    +Delete(): void
+}
+
+User "1" -- "0..*" Note : owns >
+@enduml
