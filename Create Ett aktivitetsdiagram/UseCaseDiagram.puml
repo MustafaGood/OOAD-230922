@@ -1,0 +1,13 @@
+@startuml UseCaseDiagram
+
+left to right direction
+actor Användare as User
+
+User --> (Registrera konto)
+User --> (Logga in)
+User --> (Skapa ny anteckning)
+User --> (Ändra anteckning)
+User --> (Radera anteckning)
+User --> (Visa anteckningslista)
+User --> (Logga ut)
+@enduml
